@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Commands</title>
+    <style>
+        td{
+            border: 1px solid;
+            padding: 3px;
+            text-align: center;
+        }
+        th{
+            border: 1px solid;
+            padding: 3px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body style="text-align: center;">
+    <h1 style="margin-top: 80;">Git Commands</h1>
+    <table style="border: 1px solid; margin: 10px auto;">
+        <tr><th>Command</th>
+        <th>Description</th></tr>
+        <tr><td>git init</td>
+            <td>To initialize the repo</td>
+        </tr>
+        <tr>
+        <td>git log</td>
+        <td>Shows previous commits of the repo</td>
+        </tr>
+        <tr><td>git staus</td><td>Shows current tracking status of the files</td></tr>
+        <tr><td>git add .</td>
+            <td>To stage all the files that are changed</td></tr>
+        <tr>
+            <td>
+                git add filename
+            </td>
+            <td>
+                To stage the specific file
+            </td>
+        </tr>
+        <tr>
+            <td>
+                git committ -m msg
+            </td>
+            <td>
+                To commit the staged files in local
+            </td>
+        </tr>
+        <tr>
+            <td> git push</td>
+            <td>To push the the commits to remote repo</td>
+        </tr>
+        <tr>
+            <td>
+                git pull
+            </td>
+            <td>
+                To pull the committs from the remote repo to local
+            </td>
+        </tr>
+        <tr>
+            <td>git reset --hard committId</td>
+            <td>To reset the repo till committ id with deleting the later committs code</td>
+        </tr>
+        <tr>
+            <td>git reset --soft committId</td>
+            <td>To reset the repo till committ id with deleting the later committs code</td>
+        </tr>
+    </table>
+</body>
+</html>
